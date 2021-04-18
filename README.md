@@ -5,8 +5,13 @@ Before installing jenkins Make sure to install JAVA and MAVEN in your EC2-instan
 Installation of java:
 
 yum install java-1.8*
+
+
 find /usr/lib/jvm/java-1.8* | head -n 3
+
+
 (Copy the last line : /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64)
+
 
 Edit : nano ~/.bash_profile 
 
